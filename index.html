@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Free Women's Strength Class | Koda CrossFit Iron View × Mend</title>
+  <meta name="description" content="PT-led strength training for women in Louisville, CO. Reserve your free Women's Strength class at Koda CrossFit Iron View, coached with Mend Physical Therapy.">
+  <meta name="theme-color" content="#117F97">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Your first Women's Strength class is free">
+  <meta property="og:description" content="PT-led strength training for women at Koda CrossFit Iron View in Louisville, coached with Mend Physical Therapy. Reserve your free class.">
+  <meta property="og:image" content="https://koda-crossfit.github.io/womens/assets/og-womens.jpg">
+  <meta property="og:url" content="https://koda-crossfit.github.io/womens/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="https://www.mendcolorado.com/wp-content/uploads/2025/05/Womens-Strength-50-scaled.webp">
+  <style>
+    /* Mend's look (mendcolorado.com): white and light-blue sections, teal
+       #117F97 for buttons and headings, navy #122857 footer, Inter
+       throughout, 4px buttons. Photos and logo load from mendcolorado.com. */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal: #117F97;
+      --teal-600: #0E6D82;
+      --teal-700: #0B5A6B;
+      --teal-50: #E6F7FE;
+      --teal-100: #C9ECF6;
+      --navy: #122857;
+      --navy-900: #0B1A3B;
+      --ink: #181818;
+      --text: #2A2F36;
+      --muted: #5B6672;
+      --line: #E1E7EC;
+      --edge: #BFCBD4;
+      --soft: #F5F8FA;
+      --error: #B42318;
+      --error-bg: #FEF3F2;
+      --r-sm: 4px;
+      --r: 10px;
+      --r-lg: 16px;
+      --shadow: 0 1px 2px rgba(11,26,59,0.05), 0 8px 24px rgba(11,26,59,0.07);
+      --shadow-lg: 0 2px 6px rgba(11,26,59,0.06), 0 22px 50px rgba(11,26,59,0.14);
+      color-scheme: light;
+    }
+
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; -webkit-text-size-adjust: 100%; }
+    @media (max-width: 560px) { html { scroll-padding-top: 74px; } }
+    body {
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      color: var(--text); background: #fff;
+      font-size: 16px; line-height: 1.6;
+      -webkit-font-smoothing: antialiased; overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: var(--teal); }
+    button, input, textarea { font: inherit; color: inherit; }
+    h1, h2, h3, h4 { color: var(--ink); font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
+    :focus-visible { outline: 3px solid rgba(17,127,151,0.5); outline-offset: 2px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+    @media (max-width: 480px) { .wrap { padding: 0 18px; } }
+
+    .preview-banner {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 200;
+      background: var(--error); color: #fff; text-align: center;
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 8px 12px;
+    }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      border: 0; border-radius: var(--r-sm); font-weight: 700; line-height: 1.2;
+      text-decoration: none; cursor: pointer; white-space: nowrap;
+      transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn .arr { transition: transform 0.15s ease; }
+    .btn:hover .arr { transform: translateX(3px); }
+    .btn-lg { padding: 17px 30px; font-size: 1.05rem; }
+    .btn-md { padding: 13px 22px; font-size: 0.98rem; }
+    .btn-sm { padding: 10px 16px; font-size: 0.92rem; }
+    .btn-primary { background: var(--teal); color: #fff; }
+    .btn-primary:hover { background: var(--teal-600); }
+    .btn-ghost { background: rgba(255,255,255,0.08); color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.75); }
+    .btn-ghost:hover { background: rgba(255,255,255,0.16); }
+    .btn-outline { background: #fff; color: var(--teal-700); box-shadow: inset 0 0 0 1.5px var(--teal); }
+    .btn-outline:hover { background: var(--teal-50); }
+    .btn-white { background: #fff; color: var(--teal-700); }
+    .btn-white:hover { background: var(--teal-50); }
+
+    /* ── Header ── */
+    .site-head {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(255,255,255,0.97); border-bottom: 1px solid var(--line);
+      -webkit-backdrop-filter: saturate(1.4) blur(8px); backdrop-filter: saturate(1.4) blur(8px);
+    }
+    .head-in { height: 76px; display: flex; align-items: center; gap: 28px; }
+    .lockup { display: flex; align-items: center; gap: 14px; text-decoration: none; flex-shrink: 0; }
+    .lockup .mend { height: 46px; width: auto; }
+    .lockup .div { width: 1px; height: 34px; background: var(--line); }
+    .lockup .kx { height: 19px; width: auto; fill: var(--navy); flex-shrink: 0; }
+    .lockup .koda { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; line-height: 1.25; color: var(--navy); }
+    .nav-links { display: flex; gap: 26px; margin-left: auto; }
+    .nav-links a { color: var(--text); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+    .nav-links a:hover { color: var(--teal); }
+    @media (max-width: 1000px) { .nav-links { display: none; } .head-cta { margin-left: auto; } }
+    @media (max-width: 560px) {
+      .head-in { height: 64px; gap: 12px; }
+      .lockup { gap: 10px; }
+      .lockup .mend { height: 38px; }
+      .lockup .div { height: 28px; }
+      .lockup .kx { height: 16px; }
+      .lockup .koda { display: none; }
+      .head-cta { padding: 10px 14px; font-size: 0.88rem; }
+    }
+
+    /* ── Hero ── */
+    .hero { position: relative; color: #fff; background: var(--navy-900); overflow: hidden; }
+    .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 62% 40%; }
+    .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(9,22,49,0.90) 0%, rgba(9,22,49,0.74) 45%, rgba(9,22,49,0.20) 100%); }
+    .hero-in { position: relative; min-height: 640px; display: flex; flex-direction: column; justify-content: center; padding-top: 72px; padding-bottom: 72px; }
+    .eyebrow {
+      align-self: flex-start; display: inline-flex; align-items: center; gap: 10px;
+      background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.28); border-radius: 999px;
+      padding: 7px 15px; font-size: 0.86rem; font-weight: 600; margin-bottom: 22px;
+    }
+    .eyebrow i { width: 8px; height: 8px; border-radius: 50%; background: #62D3EC; }
+    .hero h1 { color: #fff; font-size: clamp(2.7rem, 6.2vw, 4.6rem); line-height: 1.03; letter-spacing: -0.035em; max-width: 11.5ch; margin-bottom: 22px; }
+    .hero .lead { font-size: clamp(1.05rem, 1.6vw, 1.22rem); color: rgba(255,255,255,0.9); max-width: 560px; margin-bottom: 32px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 48px; }
+    .hero-facts { list-style: none; display: flex; flex-wrap: wrap; max-width: 760px; border-top: 1px solid rgba(255,255,255,0.22); padding-top: 22px; }
+    .hero-facts li { padding: 0 28px; border-left: 1px solid rgba(255,255,255,0.22); }
+    .hero-facts li:first-child { padding-left: 0; border-left: 0; }
+    .hero-facts strong { display: block; font-size: 1.02rem; color: #fff; }
+    .hero-facts span { display: block; font-size: 0.88rem; color: rgba(255,255,255,0.76); }
+    @media (max-width: 860px) {
+      .hero-shade { background: linear-gradient(180deg, rgba(9,22,49,0.55) 0%, rgba(9,22,49,0.80) 50%, rgba(9,22,49,0.93) 100%); }
+      .hero-in { min-height: 0; padding-top: 64px; padding-bottom: 52px; }
+      .hero-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 12px; }
+      .hero-facts li, .hero-facts li:first-child { padding: 0; border: 0; }
+    }
+    @media (max-width: 480px) { .cta-row .btn { width: 100%; } .cta-row { margin-bottom: 36px; } }
+
+    /* ── Sections ── */
+    .section { padding: 88px 0; }
+    .section-head { max-width: 680px; margin-bottom: 40px; }
+    .section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+    .kicker { display: block; color: var(--teal); font-weight: 700; font-size: 0.84rem; letter-spacing: 0.09em; text-transform: uppercase; margin-bottom: 10px; }
+    .section h2 { font-size: clamp(1.9rem, 3.6vw, 2.6rem); margin-bottom: 14px; }
+    .section-head p { color: var(--muted); font-size: 1.08rem; }
+    @media (max-width: 760px) { .section { padding: 64px 0; } .section-head { margin-bottom: 30px; } }
+
+    /* How it works */
+    .how { padding-bottom: 72px; }
+    .steps { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+    .step { border: 1px solid var(--line); border-radius: var(--r); padding: 26px 24px 24px; background: #fff; }
+    .step-n {
+      width: 42px; height: 42px; border-radius: 50%; margin-bottom: 16px;
+      background: var(--teal-50); color: var(--teal-700); font-weight: 800; font-size: 1.05rem;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .step h3 { font-size: 1.15rem; margin-bottom: 6px; }
+    .step p { color: var(--muted); font-size: 0.97rem; }
+    @media (max-width: 760px) { .steps { grid-template-columns: 1fr; gap: 12px; } .step { display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: 0 16px; padding: 20px; } .step-n { margin: 0; grid-row: span 2; } }
+
+    /* ── Reserve ── */
+    .reserve { background: var(--soft); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .book { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+    .panel { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow); }
+    .panel-head { display: flex; align-items: center; gap: 12px; padding: 20px 26px; border-bottom: 1px solid var(--line); }
+    .panel-n { width: 30px; height: 30px; flex-shrink: 0; border-radius: 50%; background: var(--teal); color: #fff; font-weight: 800; font-size: 0.92rem; display: flex; align-items: center; justify-content: center; }
+    .panel-head h3 { font-size: 1.2rem; }
+    .panel-head .meta { margin-left: auto; color: var(--muted); font-size: 0.86rem; font-weight: 500; }
+    .panel-body { padding: 22px 26px 26px; }
+    .details { position: sticky; top: 96px; }
+    @media (max-width: 960px) { .book { grid-template-columns: minmax(0, 1fr); } .details { position: static; } }
+    @media (max-width: 480px) { .panel-head, .panel-body { padding-left: 18px; padding-right: 18px; } .panel-head .meta { display: none; } }
+
+    /* week tabs */
+    /* the strip runs to the card's edges so a week that doesn't fit scrolls in from the edge */
+    .weeks { display: flex; gap: 8px; overflow-x: auto; padding: 8px 26px 6px; margin: -8px -26px 6px; scroll-padding: 0 26px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+    .weeks::-webkit-scrollbar { display: none; }
+    @media (max-width: 480px) { .weeks { padding: 8px 18px 6px; margin: -8px -18px 6px; scroll-padding: 0 18px; } }
+    .wk {
+      position: relative; flex: 0 0 auto; text-align: left; cursor: pointer;
+      background: #fff; border: 1.5px solid var(--edge); border-radius: 8px; padding: 8px 15px 8px;
+      transition: border-color 0.15s ease, background 0.15s ease;
+    }
+    .wk:hover { border-color: var(--teal); }
+    .wk-t { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+    .wk-d { display: block; font-weight: 700; font-size: 0.98rem; color: var(--ink); white-space: nowrap; }
+    .wk[aria-pressed="true"] { background: var(--teal); border-color: var(--teal); }
+    .wk[aria-pressed="true"] .wk-t { color: rgba(255,255,255,0.82); }
+    .wk[aria-pressed="true"] .wk-d { color: #fff; }
+    .wk-dot { position: absolute; top: -5px; right: -5px; width: 14px; height: 14px; border-radius: 50%; background: var(--teal); border: 2.5px solid #fff; box-shadow: 0 0 0 1px var(--teal); }
+    .wk[aria-pressed="true"] .wk-dot { background: #fff; box-shadow: 0 0 0 1px var(--teal); border-color: var(--teal); }
+
+    /* days + time chips */
+    .day { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 14px; padding: 18px 0; border-top: 1px solid var(--line); }
+    .day:first-child { border-top: 0; }
+    .day-h { padding-top: 6px; }
+    .day-h .dn { display: block; font-weight: 800; color: var(--ink); font-size: 1.02rem; line-height: 1.25; }
+    .day-h .dd { display: block; color: var(--muted); font-size: 0.9rem; }
+    .day-h .tag { display: inline-block; margin-top: 6px; background: var(--teal-50); color: var(--teal-700); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
+    .slots { display: grid; grid-template-columns: repeat(auto-fill, minmax(82px, 1fr)); gap: 8px; }
+    .slot {
+      position: relative; display: flex; align-items: baseline; justify-content: center; gap: 4px;
+      padding: 13px 6px 12px; background: #fff; border: 1.5px solid var(--edge); border-radius: 8px;
+      cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent;
+      transition: border-color 0.12s ease, background 0.12s ease, box-shadow 0.12s ease;
+    }
+    .slot input { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
+    .slot .t { font-weight: 700; font-size: 1.06rem; color: var(--ink); line-height: 1.2; }
+    .slot .ap { font-size: 0.76rem; font-weight: 600; color: var(--muted); }
+    .slot:hover { border-color: var(--teal); background: var(--teal-50); }
+    .slot.on { background: var(--teal); border-color: var(--teal); box-shadow: 0 6px 16px rgba(17,127,151,0.28); }
+    .slot.on .t, .slot.on .ap { color: #fff; }
+    .slot:has(input:focus-visible) { outline: 3px solid rgba(17,127,151,0.5); outline-offset: 2px; }
+    .closed-note { align-self: center; color: var(--muted); font-size: 0.95rem; }
+    .empty-week { padding: 26px 18px; border: 1.5px dashed var(--edge); border-radius: var(--r); text-align: center; color: var(--muted); margin-top: 8px; }
+    .empty-week strong { display: block; color: var(--ink); font-size: 1.05rem; margin-bottom: 4px; }
+    .empty-week .btn { margin-top: 14px; }
+    .sched-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 6px; padding-top: 16px; border-top: 1px solid var(--line); }
+    .sched-foot button { background: #fff; border: 1.5px solid var(--edge); border-radius: var(--r-sm); padding: 9px 14px; font-weight: 600; font-size: 0.88rem; color: var(--ink); cursor: pointer; }
+    .sched-foot button:hover { border-color: var(--teal); color: var(--teal-700); }
+    .sched-foot button[hidden] { display: inline-block; visibility: hidden; }
+    .sched-note { margin-top: 14px; font-size: 0.88rem; color: var(--muted); }
+    @media (max-width: 560px) {
+      .day { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 16px 0; }
+      .day-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding-top: 0; }
+      .day-h .tag { margin-top: 0; }
+      .slots { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+    @media (max-width: 340px) { .slots { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+    /* details form */
+    .chosen { display: flex; align-items: center; gap: 14px; padding: 14px 16px; margin-bottom: 20px; border-radius: var(--r); background: var(--soft); border: 1.5px dashed var(--edge); }
+    .chosen.set { background: var(--teal-50); border: 1.5px solid var(--teal-100); }
+    .chosen-main { flex: 1; min-width: 0; line-height: 1.35; }
+    .chosen-main strong { display: block; color: var(--ink); font-size: 1rem; }
+    .chosen-main span { color: var(--muted); font-size: 0.9rem; }
+    .chosen a { flex-shrink: 0; font-size: 0.88rem; font-weight: 600; }
+    .cal-badge { width: 52px; flex-shrink: 0; border-radius: 8px; overflow: hidden; text-align: center; background: #fff; border: 1px solid var(--teal-100); }
+    .cal-badge .m { display: block; background: var(--teal); color: #fff; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; padding: 3px 0 2px; }
+    .cal-badge .d { display: block; font-size: 1.35rem; font-weight: 800; color: var(--ink); line-height: 1.5; }
+    .cal-empty { width: 52px; height: 52px; flex-shrink: 0; border-radius: 8px; border: 1.5px dashed var(--edge); display: flex; align-items: center; justify-content: center; color: var(--edge); }
+    .field { margin-bottom: 14px; }
+    .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; }
+    .lbl { display: block; font-weight: 600; font-size: 0.92rem; color: var(--ink); margin-bottom: 6px; }
+    .lbl .opt { font-weight: 500; color: var(--muted); }
+    .in {
+      width: 100%; padding: 12px 14px; background: #fff;
+      border: 1.5px solid var(--edge); border-radius: 8px; font-size: 1rem;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .in:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 4px rgba(17,127,151,0.15); }
+    textarea.in { min-height: 84px; resize: vertical; line-height: 1.5; }
+    .field.bad .in { border-color: var(--error); }
+    .field-err { display: none; color: var(--error); font-size: 0.85rem; margin-top: 5px; }
+    .field.bad .field-err { display: block; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      position: relative; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; user-select: none;
+      padding: 8px 13px; background: #fff; border: 1.5px solid var(--edge); border-radius: 999px;
+      font-size: 0.88rem; font-weight: 500; line-height: 1.3; transition: border-color 0.12s ease, background 0.12s ease;
+    }
+    .chip input { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
+    .chip:hover { border-color: var(--teal); }
+    .chip.on { background: var(--teal-50); border-color: var(--teal); color: var(--teal-700); font-weight: 600; }
+    .chip.on::before { content: '✓'; font-weight: 800; }
+    .chip:has(input:focus-visible) { outline: 3px solid rgba(17,127,151,0.5); outline-offset: 2px; }
+    .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+    .submit { width: 100%; margin-top: 6px; }
+    .submit:disabled { background: #9AA7B1; cursor: not-allowed; }
+    .form-error { display: none; margin-top: 14px; padding: 12px 14px; border-radius: 8px; background: var(--error-bg); border: 1px solid #FECDCA; color: var(--error); font-size: 0.93rem; font-weight: 500; }
+    .form-error.show { display: block; }
+    .fine { margin-top: 14px; font-size: 0.85rem; color: var(--muted); text-align: center; }
+    @media (max-width: 480px) { .row2 { grid-template-columns: minmax(0, 1fr); } }
+
+    /* success */
+    .success { display: none; max-width: 720px; margin: 0 auto; padding: 44px 40px 40px; text-align: center; }
+    .success.show { display: block; }
+    .ok-icon { width: 68px; height: 68px; margin: 0 auto 18px; border-radius: 50%; background: var(--teal); color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 8px var(--teal-50); }
+    .success h3 { font-size: clamp(1.7rem, 4.4vw, 2.2rem); margin-bottom: 8px; }
+    .success h3:focus { outline: none; }
+    .success .lead2 { color: var(--muted); max-width: 520px; margin: 0 auto 24px; }
+    .booked { display: flex; align-items: center; gap: 16px; text-align: left; border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; margin-bottom: 14px; }
+    .booked .cal-badge { width: 60px; }
+    .booked .cal-badge .d { font-size: 1.6rem; }
+    .booked-main { flex: 1; min-width: 0; line-height: 1.4; }
+    .booked-main strong { display: block; color: var(--ink); font-size: 1.08rem; }
+    .booked-main span { display: block; color: var(--muted); font-size: 0.93rem; }
+    .cal-btns { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 26px; }
+    .intake { text-align: left; background: var(--teal-50); border: 1px solid var(--teal-100); border-left: 4px solid var(--teal); border-radius: var(--r); padding: 20px 22px; margin-bottom: 16px; }
+    .intake .k { display: inline-block; background: var(--teal); color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; margin-bottom: 8px; }
+    .intake h4 { font-size: 1.15rem; margin-bottom: 4px; }
+    .intake p { color: var(--text); font-size: 0.97rem; }
+    .intake .btn { margin-top: 14px; }
+    .know { text-align: left; border: 1px solid var(--line); border-radius: var(--r); padding: 18px 22px; margin-bottom: 24px; }
+    .know h4 { font-size: 1.05rem; margin-bottom: 6px; }
+    .know ul { list-style: none; }
+    .know li { position: relative; padding: 5px 0 5px 28px; font-size: 0.96rem; }
+    .know li::before { content: ''; position: absolute; left: 4px; top: 11px; width: 6px; height: 11px; border: solid var(--teal); border-width: 0 2.5px 2.5px 0; transform: rotate(45deg); }
+    .success-foot { color: var(--muted); font-size: 0.92rem; margin-top: 14px; }
+    @media (max-width: 560px) { .success { padding: 34px 18px 28px; } .booked { padding: 14px; gap: 12px; } .intake, .know { padding: 16px 16px; } .cal-btns .btn { width: 100%; } }
+
+    /* ── About the class ── */
+    .about { background: var(--teal-50); }
+    .about-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: 56px; align-items: center; }
+    .about .section-head { margin-bottom: 0; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 28px; margin-top: 32px; }
+    .feature .ic { width: 46px; height: 46px; border-radius: 12px; background: #fff; color: var(--teal); display: flex; align-items: center; justify-content: center; margin-bottom: 12px; box-shadow: var(--shadow); }
+    .feature .ic svg { width: 22px; height: 22px; }
+    .feature h3 { font-size: 1.05rem; margin-bottom: 4px; }
+    .feature p { color: var(--muted); font-size: 0.95rem; }
+    .about-photo { position: relative; }
+    .about-photo img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 50%; border-radius: var(--r-lg); box-shadow: var(--shadow-lg); }
+    .photo-badge { position: absolute; left: -20px; bottom: 30px; display: flex; align-items: center; gap: 12px; background: #fff; border-radius: var(--r); padding: 14px 18px; box-shadow: var(--shadow-lg); max-width: 290px; }
+    .photo-badge .big { font-size: 1.9rem; font-weight: 800; color: var(--teal); letter-spacing: -0.03em; line-height: 1; }
+    .photo-badge span { font-size: 0.88rem; color: var(--text); line-height: 1.35; }
+    @media (max-width: 900px) { .about-grid { grid-template-columns: minmax(0, 1fr); gap: 36px; } .about-photo img { aspect-ratio: 4 / 3; } .photo-badge { left: 14px; bottom: 14px; } }
+    @media (max-width: 560px) { .features { grid-template-columns: minmax(0, 1fr); gap: 20px; } }
+
+    /* ── Coaches ── */
+    .coaches { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+    .coach { display: grid; grid-template-columns: 210px minmax(0, 1fr); background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow); }
+    .coach img { width: 100%; height: 100%; min-height: 280px; object-fit: cover; }
+    .coach-body { padding: 24px 24px 26px; }
+    .coach .role { color: var(--teal); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
+    .coach h3 { font-size: 1.25rem; margin: 6px 0 2px; }
+    .coach .creds { color: var(--muted); font-size: 0.88rem; margin-bottom: 12px; }
+    .coach p { font-size: 0.96rem; }
+    .coach-note { margin-top: 22px; text-align: center; color: var(--muted); }
+    @media (max-width: 1000px) { .coaches { grid-template-columns: minmax(0, 1fr); } }
+    @media (max-width: 560px) { .coach { grid-template-columns: minmax(0, 1fr); } .coach img { height: 300px; min-height: 0; } }
+
+    /* ── Plans ── */
+    .plans-sec { background: var(--soft); border-top: 1px solid var(--line); }
+    .plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: stretch; }
+    .plan { position: relative; background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 30px 26px 28px; box-shadow: var(--shadow); }
+    .plan.feat { border: 2px solid var(--teal); }
+    .plan .ptag { position: absolute; top: -13px; left: 24px; background: var(--teal); color: #fff; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 11px; border-radius: 999px; }
+    .plan h3 { font-size: 1.1rem; margin-bottom: 12px; }
+    .price { font-size: 2.5rem; font-weight: 800; color: var(--ink); letter-spacing: -0.03em; line-height: 1; }
+    .price small { font-size: 0.95rem; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+    .plan p { color: var(--muted); margin-top: 14px; font-size: 0.96rem; }
+    .perk { display: flex; align-items: center; gap: 16px; margin-top: 24px; background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: 18px 22px; }
+    .perk .ic { width: 44px; height: 44px; flex-shrink: 0; border-radius: 50%; background: var(--teal-50); color: var(--teal); display: flex; align-items: center; justify-content: center; }
+    .perk p { font-size: 0.97rem; }
+    .perk strong { color: var(--ink); }
+    @media (max-width: 860px) { .plans { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
+
+    /* ── FAQ ── */
+    .faq-list { max-width: 820px; margin: 0 auto; }
+    .faq-list details { background: #fff; border: 1px solid var(--line); border-radius: var(--r); margin-bottom: 10px; transition: box-shadow 0.15s ease; }
+    .faq-list details[open] { box-shadow: var(--shadow); }
+    .faq-list summary { position: relative; list-style: none; cursor: pointer; padding: 18px 56px 18px 22px; font-weight: 700; color: var(--ink); font-size: 1.02rem; }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list summary::after {
+      content: ''; position: absolute; right: 24px; top: 50%; width: 9px; height: 9px;
+      border-right: 2.5px solid var(--teal); border-bottom: 2.5px solid var(--teal);
+      transform: translateY(-70%) rotate(45deg); transition: transform 0.2s ease;
+    }
+    .faq-list details[open] summary::after { transform: translateY(-25%) rotate(-135deg); }
+    .faq-list .ans { padding: 0 22px 20px; }
+    .faq-list .ans p + p { margin-top: 8px; }
+
+    /* ── CTA band ── */
+    .cta-band { background: linear-gradient(135deg, var(--teal) 0%, var(--teal-700) 100%); color: #fff; text-align: center; padding: 76px 0; }
+    .cta-band h2 { color: #fff; font-size: clamp(1.9rem, 4vw, 2.7rem); margin-bottom: 10px; }
+    .cta-band p { color: rgba(255,255,255,0.9); font-size: 1.1rem; margin-bottom: 28px; }
+
+    /* ── Footer ── */
+    .site-foot { background: var(--navy); color: rgba(255,255,255,0.78); padding: 56px 0 30px; font-size: 0.95rem; }
+    .foot-grid { display: grid; grid-template-columns: 1.25fr 1fr 1fr; gap: 36px; }
+    .foot-brand { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+    .foot-brand img { height: 48px; width: auto; }
+    .foot-brand .div { width: 1px; height: 34px; background: rgba(255,255,255,0.25); }
+    .foot-brand .kx { height: 19px; width: auto; fill: #fff; }
+    .site-foot h4 { color: #fff; font-size: 1rem; margin-bottom: 10px; letter-spacing: -0.01em; }
+    .site-foot a { color: #fff; text-decoration: none; }
+    .site-foot a:hover { text-decoration: underline; }
+    .site-foot p + p { margin-top: 4px; }
+    .foot-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px; border-top: 1px solid rgba(255,255,255,0.15); margin-top: 40px; padding-top: 20px; font-size: 0.85rem; color: rgba(255,255,255,0.6); }
+    @media (max-width: 760px) { .foot-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; } }
+
+    /* sticky "your class" bar (phones/tablets) */
+    .pickbar {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+      background: #fff; border-top: 1px solid var(--line); box-shadow: 0 -8px 24px rgba(11,26,59,0.10);
+      padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      transform: translateY(110%); transition: transform 0.2s ease;
+    }
+    .pickbar.show { transform: none; }
+    .pickbar-in { display: flex; align-items: center; gap: 12px; max-width: 720px; margin: 0 auto; }
+    .pb-text { flex: 1; min-width: 0; line-height: 1.3; }
+    .pb-text small { display: block; color: var(--muted); font-size: 0.76rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+    .pb-text strong { display: block; color: var(--ink); font-size: 0.97rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    body.preview .pickbar { bottom: 33px; }
+    body.has-bar .site-foot { padding-bottom: 110px; }
+    @media (min-width: 961px) { .pickbar { display: none; } }
+
+    /* loading overlay */
+    .loading { display: none; position: fixed; inset: 0; z-index: 100; background: rgba(11,26,59,0.82); color: #fff; flex-direction: column; align-items: center; justify-content: center; gap: 16px; font-weight: 600; }
+    .loading.active { display: flex; }
+    .spinner { width: 44px; height: 44px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.25); border-top-color: #fff; animation: spin 0.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="kx" viewBox="0 0 1961 1078"><path d="M0 0h316l539 539-539 539H0l539-539zM566 0h316l381 381 382-381h316l-540 539 540 539h-316l-382-381-381 381H566l540-539z"/></symbol>
+  </svg>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-head">
+    <div class="wrap head-in">
+      <a class="lockup" href="#top" aria-label="Mend Physical Therapy and Koda CrossFit Iron View — back to top">
+        <img class="mend" src="https://www.mendcolorado.com/wp-content/uploads/2026/04/Logo-Teal.png" alt="Mend" width="56" height="46">
+        <span class="div" aria-hidden="true"></span>
+        <svg class="kx" viewBox="0 0 1961 1078" aria-hidden="true"><use href="#kx"/></svg>
+        <span class="koda">Koda CrossFit<br>Iron View</span>
+      </a>
+      <nav class="nav-links" aria-label="On this page">
+        <a href="#how">How it works</a>
+        <a href="#about">The class</a>
+        <a href="#coaches">Coaches</a>
+        <a href="#plans">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-primary btn-sm head-cta" href="#reserve">Reserve free class</a>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="top">
+    <img class="hero-img" src="https://www.mendcolorado.com/wp-content/uploads/2025/05/Womens-Strength-50-scaled.webp" alt="" fetchpriority="high">
+    <div class="hero-shade"></div>
+    <div class="wrap hero-in">
+      <p class="eyebrow"><i aria-hidden="true"></i>Women's Strength · PT-led with Mend</p>
+      <h1>Your first class is on us.</h1>
+      <p class="lead">Strength training for women, coached by a physical therapist and an expert trainer. Join us at Koda CrossFit Iron View in Louisville — every age and experience level is welcome.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="#reserve">Reserve my free class <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost btn-lg" href="#about">About the class</a>
+      </div>
+      <ul class="hero-facts">
+        <li><strong>Tue · Thu · Fri</strong><span>Mornings &amp; afternoons</span></li>
+        <li><strong>60 minutes</strong><span>Strength + intervals</span></li>
+        <li><strong>PT + coach</strong><span>In every class</span></li>
+        <li><strong>Louisville, CO</strong><span>740 S Pierce Ave</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══ HOW IT WORKS ═══ -->
+  <section class="section how" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">How it works</span>
+        <h2>Three easy steps to your first class</h2>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="step-n">1</span><h3>Pick a class</h3><p>Choose any Tuesday, Thursday or Friday class below — it takes about a minute.</p></li>
+        <li class="step"><span class="step-n">2</span><h3>Fill out your intake form</h3><p>A few quick questions so your coaches know your history and goals before you arrive.</p></li>
+        <li class="step"><span class="step-n">3</span><h3>Show up &amp; lift</h3><p>Arrive 5–10 minutes early. Your coaches will show you around and get you set up.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ═══ RESERVE ═══ -->
+  <section class="section reserve" id="reserve">
+    <div class="wrap">
+      <div class="section-head center" id="reserveHead">
+        <span class="kicker">Free for first-time visitors</span>
+        <h2 id="reserveTitle">Reserve your free class</h2>
+        <p id="reserveSub">Choose a time, add your details, and you're all set.</p>
+      </div>
+
+      <noscript><div class="panel"><div class="panel-body">This page needs JavaScript to show the class schedule. Call Mend at <a href="tel:+17207726780">(720) 772-6780</a> and they'll reserve your free class for you.</div></div></noscript>
+
+      <form class="book" id="bookForm" novalidate>
+        <!-- 1 · class -->
+        <div class="panel" id="schedule">
+          <div class="panel-head"><span class="panel-n">1</span><h3>Choose your class</h3><span class="meta">All classes are 60 minutes</span></div>
+          <div class="panel-body">
+            <div class="weeks" id="weeks" role="group" aria-label="Week"></div>
+            <div id="days"></div>
+            <div class="sched-foot">
+              <button type="button" id="prevWeek">← Previous week</button>
+              <button type="button" id="nextWeek">Next week →</button>
+            </div>
+            <p class="sched-note">Women's Strength at Koda CrossFit Iron View, 740 S Pierce Ave #5, Louisville. Each class is coached by a Mend physical therapist and a strength coach.</p>
+          </div>
+        </div>
+
+        <!-- 2 · details -->
+        <div class="panel details" id="details">
+          <div class="panel-head"><span class="panel-n">2</span><h3>Your details</h3></div>
+          <div class="panel-body">
+            <div class="chosen" id="chosen" aria-live="polite"></div>
+
+            <div class="row2">
+              <div class="field" id="fFirst">
+                <label class="lbl" for="firstName">First name</label>
+                <input class="in" type="text" id="firstName" name="firstName" autocomplete="given-name" maxlength="60" required>
+                <p class="field-err">Please add your first name.</p>
+              </div>
+              <div class="field" id="fLast">
+                <label class="lbl" for="lastName">Last name</label>
+                <input class="in" type="text" id="lastName" name="lastName" autocomplete="family-name" maxlength="60" required>
+                <p class="field-err">Please add your last name.</p>
+              </div>
+            </div>
+            <div class="field" id="fEmail">
+              <label class="lbl" for="email">Email</label>
+              <input class="in" type="email" id="email" name="email" autocomplete="email" inputmode="email" maxlength="120" required>
+              <p class="field-err">Please enter a valid email — your confirmation goes here.</p>
+            </div>
+            <div class="field" id="fPhone">
+              <label class="lbl" for="phone">Mobile phone</label>
+              <input class="in" type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" maxlength="24" required>
+              <p class="field-err">Please enter a phone number your coaches can reach you at.</p>
+            </div>
+            <div class="field">
+              <span class="lbl" id="goalsLbl">What brings you to class? <span class="opt">(optional — pick any)</span></span>
+              <div class="chips" id="goals" role="group" aria-labelledby="goalsLbl"></div>
+            </div>
+            <div class="field">
+              <label class="lbl" for="notes">Anything your coaches should know? <span class="opt">(optional)</span></label>
+              <textarea class="in" id="notes" name="notes" maxlength="1000" placeholder="Injuries, lifting experience, questions…"></textarea>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="website">Leave this empty</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg submit" id="submitBtn">Reserve my free class <span class="arr" aria-hidden="true">→</span></button>
+            <div class="form-error" id="formError" role="alert"></div>
+            <p class="fine">One free class per person · no payment info needed.<br>Already booked? Reserve again with the same email to change your time.</p>
+          </div>
+        </div>
+      </form>
+
+      <div class="panel success" id="success">
+        <div class="ok-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <h3 id="successTitle" tabindex="-1">You're booked!</h3>
+        <p class="lead2" id="successLead"></p>
+        <div class="booked" id="booked"></div>
+        <div class="cal-btns">
+          <a class="btn btn-outline btn-md" id="gcalBtn" href="#" target="_blank" rel="noopener">Add to Google Calendar</a>
+          <a class="btn btn-outline btn-md" id="icsBtn" href="#" download="womens-strength-free-class.ics">Apple / Outlook calendar</a>
+        </div>
+        <div class="intake" id="intake"></div>
+        <div class="know">
+          <h4>Good to know</h4>
+          <ul>
+            <li>Arrive <strong>5–10 minutes early</strong> and introduce yourself — your coaches will be expecting you.</li>
+            <li>Wear comfortable workout clothes and athletic shoes, and bring a water bottle. All equipment is provided.</li>
+            <li>We're at <a href="https://maps.google.com/?q=740+S+Pierce+Ave+%235,+Louisville,+CO+80027" target="_blank" rel="noopener">740 S Pierce Ave #5, Louisville</a>.</li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-outline btn-md" id="changeBtn">Change my class</button>
+        <p class="success-foot">Questions? Reply to your confirmation email or call Mend at <a href="tel:+17207726780">(720) 772-6780</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT THE CLASS ═══ -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="section-head">
+          <span class="kicker">About the class</span>
+          <h2>Strength training, guided by a physical therapist</h2>
+          <p>This isn't a typical gym class. Every session pairs a board-certified physical therapist from Mend with an experienced strength coach, so you can lift with confidence — whether you're brand new, returning after an injury, or working around aches and pains.</p>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Two coaches, every class</h3>
+            <p>A physical therapist and a strength coach watch your form and adjust each movement for you.</p>
+          </div>
+          <div class="feature">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11"/></svg></div>
+            <h3>Strength + intervals</h3>
+            <p>Warm up together, build strength with weights, then finish with short, high-intensity intervals.</p>
+          </div>
+          <div class="feature">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="m17 11 2 2 4-4"/></svg></div>
+            <h3>Small groups</h3>
+            <p>Classes are capped at 20, so everyone gets real coaching and personal feedback.</p>
+          </div>
+          <div class="feature">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>Built for women's health</h3>
+            <p>Training that supports bone density, heart and metabolic health, and the menopause transition.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-photo">
+        <img src="https://www.mendcolorado.com/wp-content/uploads/2025/05/Womens-Strength-30.webp" alt="Women carrying kettlebells during a Mend women's strength class" loading="lazy" width="1280" height="853">
+        <div class="photo-badge"><span class="big">2×</span><span>a week is the dose we recommend for the best results</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ COACHES ═══ -->
+  <section class="section" id="coaches">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker">Your coaches</span>
+        <h2>Meet the team behind the class</h2>
+        <p>Women's Strength at Koda is led by Mend's physical therapists and coaches.</p>
+      </div>
+      <div class="coaches">
+        <article class="coach">
+          <img src="https://www.mendcolorado.com/wp-content/uploads/2023/11/4e58802c-7a97-11ee-b63e-f28505ea-1024x1536.webp" alt="Dr. Kristin Carpenter" loading="lazy" style="object-position: 50% 22%">
+          <div class="coach-body">
+            <span class="role">Physical therapist</span>
+            <h3>Dr. Kristin Carpenter</h3>
+            <p class="creds">PT, DPT, OCS, FAAOMPT · Mend Physical Therapy</p>
+            <p>Kristin has practiced physical therapy for nearly 20 years. She's a fellowship-trained, board-certified orthopedic specialist who treats spine, sports, orthopedic and pelvic-health conditions, including prenatal and postpartum care — and a former Division I athlete and mom of two.</p>
+          </div>
+        </article>
+        <article class="coach">
+          <img src="https://www.mendcolorado.com/wp-content/uploads/2025/06/Coach-Photo-_-Maggie-1280x853.webp" alt="Coach Maggie Kerrigan" loading="lazy" style="object-position: 47% 40%">
+          <div class="coach-body">
+            <span class="role">Strength coach</span>
+            <h3>Maggie Kerrigan</h3>
+            <p class="creds">CF-L1 · B.S. Exercise Science</p>
+            <p>Maggie has spent more than a decade coaching one-on-one and small-group training, with a focus on functional strength and building muscle for women. She's a CrossFit Level 1 Trainer and certified in Management of the Older Adult.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PLANS ═══ -->
+  <section class="section plans-sec" id="plans">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker">After your free class</span>
+        <h2>Keep the momentum going</h2>
+        <p>Love it? Pick the plan that fits your week.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>2× per week</h3>
+          <div class="price">$185<small> / month</small></div>
+          <p>Two Women's Strength classes a week — the routine we recommend.</p>
+        </div>
+        <div class="plan feat">
+          <span class="ptag">Includes CrossFit</span>
+          <h3>Unlimited</h3>
+          <div class="price">$228<small> / month</small></div>
+          <p>Every Women's Strength class, plus any Koda CrossFit class.</p>
+        </div>
+        <div class="plan">
+          <h3>10-class pass</h3>
+          <div class="price">$300<small> / 10 visits</small></div>
+          <p>Ten Women's Strength classes, no monthly plan.</p>
+        </div>
+      </div>
+      <div class="perk">
+        <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span>
+        <p><strong>Bonus for members:</strong> a complimentary physical therapy evaluation at Mend ($165 value) to address any pain or concerns about exercise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ═══ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker">FAQ</span>
+        <h2>Questions, answered</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>Is my first class really free?</summary><div class="ans"><p>Yes. Your first Women's Strength class is completely free — no payment info and no commitment. It's one free class per person.</p></div></details>
+        <details><summary>I've never lifted weights. Is this class for me?</summary><div class="ans"><p>Absolutely. Our classes include women of every age, ability and body type, and plenty of them had never lifted before their first class. Your coaches teach every movement and scale it to you.</p></div></details>
+        <details><summary>I have an injury or chronic pain. Can I still join?</summary><div class="ans"><p>Yes — that's exactly why a physical therapist coaches every class. Tell us what's going on in your intake form and your coaches will adapt the movements for you.</p><p>Prefer to talk it through first? You can book a visit with Mend at <a href="tel:+17207726780">(720) 772-6780</a>.</p></div></details>
+        <details><summary>What should I bring?</summary><div class="ans"><p>Comfortable workout clothes, athletic shoes and a water bottle. All the equipment is provided.</p></div></details>
+        <details><summary>What happens when I arrive?</summary><div class="ans"><p>Come 5–10 minutes early and introduce yourself to the coaches — they'll know you're coming. They'll have you sign a waiver, show you around the gym and get you set up for class.</p></div></details>
+        <details><summary>How big are the classes?</summary><div class="ans"><p>Classes are capped at 20 people with two coaches, so everyone gets attention and personal feedback.</p></div></details>
+        <details><summary>How do I change or cancel my reservation?</summary><div class="ans"><p>To change your class, come back to this page and reserve a new time with the same email — it replaces your current reservation. To cancel, just reply to your confirmation email.</p></div></details>
+        <details><summary>What happens after my free class?</summary><div class="ans"><p>If you love it, choose a plan that fits your week — see <a href="#plans">pricing</a>. We recommend two classes a week for the best results.</p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Ready to feel strong?</h2>
+      <p>Your first Women's Strength class is on us.</p>
+      <a class="btn btn-white btn-lg" href="#reserve">Reserve my free class <span class="arr" aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-foot">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <div class="foot-brand">
+            <img src="https://www.mendcolorado.com/wp-content/uploads/2026/05/Logo-White.png" alt="Mend" width="58" height="48" loading="lazy">
+            <span class="div" aria-hidden="true"></span>
+            <svg class="kx" viewBox="0 0 1961 1078" aria-hidden="true"><use href="#kx"/></svg>
+          </div>
+          <p>PT-led Women's Strength classes, a partnership between Mend Physical Therapy and Koda CrossFit Iron View.</p>
+        </div>
+        <div>
+          <h4>Class location</h4>
+          <p>Koda CrossFit Iron View</p>
+          <p><a href="https://maps.google.com/?q=740+S+Pierce+Ave+%235,+Louisville,+CO+80027" target="_blank" rel="noopener">740 S Pierce Ave #5<br>Louisville, CO 80027</a></p>
+          <p><a href="https://www.kodacrossfitironview.com/" target="_blank" rel="noopener">kodacrossfitironview.com</a></p>
+        </div>
+        <div>
+          <h4>Questions?</h4>
+          <p>Mend Physical Therapy</p>
+          <p><a href="tel:+17207726780">(720) 772-6780</a></p>
+          <p><a href="https://www.mendcolorado.com/boulder-group-fitness/" target="_blank" rel="noopener">mendcolorado.com</a></p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> Koda CrossFit Iron View · in partnership with Mend Physical Therapy</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="pickbar" id="pickbar" aria-hidden="true">
+    <div class="pickbar-in">
+      <div class="pb-text"><small>Your free class</small><strong id="pbText"></strong></div>
+      <a class="btn btn-primary btn-sm" href="#details" tabindex="-1">Continue <span class="arr">→</span></a>
+    </div>
+  </div>
+
+  <div class="loading" id="loadingOverlay">
+    <div class="spinner"></div>
+    <div>Reserving your class…</div>
+  </div>
+
+  <script>
+    // ══════════════════════════════════════════════════
+    // CONFIGURATION
+    // Posts type:"mendws" to the Koda Apps Script web app (the same one as
+    // the Hyrox pages). The backend — apps-script/MendWomens.js in
+    // Desktop\Claude\hyrox-simulation-signup — saves to its own sheet,
+    // emails the client and alerts Maggie + Kristin.
+    // ══════════════════════════════════════════════════
+    var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwWjHrhE6k3vVPDXD4qi3VLxZVAXMykAFIKocoUiq0BtXdv2XLy7Oo0GRfrP48fHytnyw/exec";
+    var CLASS_MINUTES = 60;
+    var LEAD_MINUTES = 60;   // a class starting sooner than this drops off the picker
+    var WEEKS_AHEAD = 3;     // weeks shown after the current one
+
+    // Women's Strength at Koda, from kodacrossfitironview.com/Schedule on
+    // 10/30/2026. Change times here and push — the backend accepts any time
+    // on any day (it only checks the pick is real, upcoming and not too far out).
+    var WS_TUE_THU = ['7:30 AM', '8:45 AM', '9:45 AM', '4:00 PM', '5:00 PM'];
+    var LINEUP = { Tue: WS_TUE_THU, Thu: WS_TUE_THU, Fri: ['7:30 AM', '8:45 AM'] };
+    var CLOSED_DAYS = {
+      '2026-11-26': 'Thanksgiving',
+      '2026-12-24': 'Christmas Eve',
+      '2026-12-25': 'Christmas Day',
+      '2026-12-31': "New Year's Eve",
+      '2027-01-01': "New Year's Day"
+    };
+    // Same choices as the "why are you interested" question on Mend's class page.
+    var GOALS = ['Perimenopause / hormone support', 'Bone health / osteoporosis', 'Metabolic health / GLP-1 support',
+                 'Longevity', 'Injury / pain prevention', 'Other'];
+
+    var GYM_NAME = 'Koda CrossFit Iron View';
+    var GYM_ADDRESS = '740 S Pierce Ave #5, Louisville, CO 80027';
+    var EVENT_TITLE = "Women's Strength — free class (Koda × Mend)";
+    var EVENT_DETAILS = "Your free Women's Strength class at Koda CrossFit Iron View, coached with Mend Physical Therapy. " +
+      'Arrive 5–10 minutes early and introduce yourself to your coaches. Questions? Call Mend at (720) 772-6780.';
+    var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Preview mode (#test or ?preview=1): decided once at load; nothing is posted.
+    var PREVIEW = location.hash === '#test' || /[?&]preview=1(&|$)/.test(location.search);
+    if (PREVIEW) {
+      var pv = document.createElement('div');
+      pv.className = 'preview-banner';
+      pv.textContent = 'Preview mode — nothing is saved';
+      document.body.appendChild(pv);
+      document.body.classList.add('preview');
+    }
+    // ?src=instagram (etc.) is saved with the booking, to see where people come from.
+    var SOURCE = (/[?&]src=([^&#]*)/.exec(location.search) || [])[1] || '';
+
+    // ── Dates ──
+    // Class times are Mountain time. US rule: daylight time (UTC−6) from 2 AM
+    // on the second Sunday in March to 2 AM on the first Sunday in November,
+    // standard time (UTC−7) the rest of the year. A "wall" value is a
+    // Mountain clock time stored as if it were UTC.
+    var DAY_MS = 864e5;
+    var DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    var DOW_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+    function nthSunday(y, month, n) { return 1 + (7 - new Date(Date.UTC(y, month, 1)).getUTCDay()) % 7 + (n - 1) * 7; }
+    function dstWall(w) {
+      var y = new Date(w).getUTCFullYear();
+      return w >= Date.UTC(y, 2, nthSunday(y, 2, 2), 2) && w < Date.UTC(y, 10, nthSunday(y, 10, 1), 2);
+    }
+    function nowWall() {
+      var n = Date.now(), y = new Date(n).getUTCFullYear();
+      var dst = n >= Date.UTC(y, 2, nthSunday(y, 2, 2), 9) && n < Date.UTC(y, 10, nthSunday(y, 10, 1), 8);
+      return n - (dst ? 6 : 7) * 36e5;
+    }
+    function wallToUtc(w) { return w + (dstWall(w) ? 6 : 7) * 36e5; }
+    function todayWall() { var w = nowWall(); return w - w % DAY_MS; }
+    function pad2(n) { return (n < 10 ? '0' : '') + n; }
+    function clockMinutes(t) {   // "5:00 PM" -> 1020
+      var m = /^(\d{1,2}):(\d{2}) ([AP]M)$/.exec(t);
+      return ((+m[1] % 12) + (m[3] === 'PM' ? 12 : 0)) * 60 + +m[2];
+    }
+    function dayLong(ms) { return DOW_LONG[new Date(ms).getUTCDay()]; }
+    function monthDay(ms) { var d = new Date(ms); return MONTHS[d.getUTCMonth()] + ' ' + d.getUTCDate(); }
+    function longDate(ms) { var d = new Date(ms); return DOW_LONG[d.getUTCDay()] + ', ' + MONTHS_LONG[d.getUTCMonth()] + ' ' + d.getUTCDate(); }
+    function endTime(c) {   // "7:30 AM" -> "8:30 AM"
+      var min = clockMinutes(c.time) + CLASS_MINUTES, h = Math.floor(min / 60) % 24;
+      return (h % 12 || 12) + ':' + pad2(min % 60) + (h < 12 ? ' AM' : ' PM');
+    }
+
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, function(c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    // ── Every class from this week through WEEKS_AHEAD more, grouped by week ──
+    var CLASSES = {};   // id -> class; id = "2026-11-03|07:30|WS" (what the backend receives)
+    var WEEKS = [];     // { start, days: [{ ms, closed, classes }] }
+    (function buildSchedule() {
+      var today = todayWall();
+      var monday = today - ((new Date(today).getUTCDay() + 6) % 7) * DAY_MS;
+      for (var w = 0; w <= WEEKS_AHEAD; w++) {
+        var wk = { start: monday + w * 7 * DAY_MS, days: [] };
+        for (var i = 0; i < 7; i++) {
+          var t = wk.start + i * DAY_MS, date = new Date(t), iso = date.toISOString().slice(0, 10);
+          var times = LINEUP[DOW[date.getUTCDay()]];
+          if (!times) continue;
+          var day = { ms: t, closed: CLOSED_DAYS[iso] || '', classes: [] };
+          if (!day.closed) times.forEach(function(time) {
+            var min = clockMinutes(time);
+            var c = { id: iso + '|' + pad2(Math.floor(min / 60)) + ':' + pad2(min % 60) + '|WS', day: day, time: time, wall: t + min * 6e4 };
+            CLASSES[c.id] = c;
+            day.classes.push(c);
+          });
+          wk.days.push(day);
+        }
+        WEEKS.push(wk);
+      }
+    })();
+
+    function bookable(c) { return c.wall - nowWall() >= LEAD_MINUTES * 6e4; }
+    function weekHasClasses(wk) { return wk.days.some(function(d) { return d.classes.some(bookable); }); }
+    function weekShown(i) { return i > 0 || weekHasClasses(WEEKS[0]); }   // this week drops off once its classes are gone
+    function weekOf(c) {
+      for (var i = 0; i < WEEKS.length; i++) if (c.day.ms >= WEEKS[i].start && c.day.ms < WEEKS[i].start + 7 * DAY_MS) return i;
+      return -1;
+    }
+    function weekRange(wk) {
+      var days = wk.days;
+      if (!days.length) return monthDay(wk.start);
+      var a = days[0].ms, b = days[days.length - 1].ms;
+      return monthDay(a) + ' – ' + (new Date(a).getUTCMonth() === new Date(b).getUTCMonth() ? new Date(b).getUTCDate() : monthDay(b));
+    }
+    function classLabel(c) { return DOW[new Date(c.day.ms).getUTCDay()] + ', ' + monthDay(c.day.ms) + ' · ' + c.time; }
+
+    // ── State ──
+    var state = { week: 0, pick: '', goals: [] };
+    var done = false;
+
+    var $ = function(id) { return document.getElementById(id); };
+    var form = $('bookForm'), weeksEl = $('weeks'), daysEl = $('days'), chosenEl = $('chosen');
+    var prevBtn = $('prevWeek'), nextBtn = $('nextWeek');
+    var formError = $('formError'), submitBtn = $('submitBtn');
+    var pickbar = $('pickbar'), loadingOverlay = $('loadingOverlay');
+    var fields = { firstName: $('firstName'), lastName: $('lastName'), email: $('email'), phone: $('phone'), notes: $('notes') };
+
+    // ── Week tabs ──
+    function renderWeeks() {
+      var picked = CLASSES[state.pick], pickWeek = picked ? weekOf(picked) : -1, html = '';
+      WEEKS.forEach(function(wk, i) {
+        if (!weekShown(i)) return;
+        var when = i === 0 ? 'This week' : i === 1 ? 'Next week' : 'In ' + i + ' weeks';
+        html += '<button type="button" class="wk" data-i="' + i + '" aria-pressed="' + (i === state.week) + '">' +
+          '<span class="wk-t">' + when + '</span><span class="wk-d">' + esc(weekRange(wk)) + '</span>' +
+          (i === pickWeek ? '<span class="wk-dot" title="Your class is this week"></span>' : '') + '</button>';
+      });
+      weeksEl.innerHTML = html;
+    }
+
+    // ── Days + time chips for the selected week ──
+    function renderDays() {
+      var wk = WEEKS[state.week], today = todayWall(), html = '';
+      wk.days.forEach(function(day) {
+        if (day.ms < today) return;
+        if (day.closed) {
+          html += dayRow(day, '<p class="closed-note">' + esc(day.closed) + ' — no classes.</p>');
+          return;
+        }
+        var list = day.classes.filter(bookable);
+        if (list.length) html += dayRow(day, '<div class="slots">' + list.map(slotHtml).join('') + '</div>');
+      });
+      daysEl.innerHTML = html || emptyWeekHtml();
+      syncSlots();
+      prevBtn.hidden = neighborWeek(-1) < 0;
+      nextBtn.hidden = neighborWeek(1) < 0;
+    }
+
+    function dayRow(day, inner) {
+      var today = todayWall();
+      var tag = day.ms === today ? 'Today' : day.ms === today + DAY_MS ? 'Tomorrow' : '';
+      return '<div class="day"><div class="day-h"><span class="dn">' + dayLong(day.ms) + '</span>' +
+        '<span class="dd">' + monthDay(day.ms) + '</span>' + (tag ? '<span class="tag">' + tag + '</span>' : '') + '</div>' + inner + '</div>';
+    }
+
+    function slotHtml(c) {
+      var t = c.time.split(' ');
+      return '<label class="slot" data-id="' + c.id + '">' +
+        '<input type="radio" name="cls" value="' + c.id + '" aria-label="' + esc(longDate(c.day.ms) + ', ' + c.time) + '">' +
+        '<span class="t">' + t[0] + '</span><span class="ap">' + t[1] + '</span></label>';
+    }
+
+    function emptyWeekHtml() {
+      var next = -1;
+      for (var i = state.week + 1; i < WEEKS.length; i++) if (weekHasClasses(WEEKS[i])) { next = i; break; }
+      return '<div class="empty-week"><strong>No more classes this week</strong>' +
+        (next >= 0 ? 'The next ones are ' + esc(weekRange(WEEKS[next])) + '.<br>' +
+          '<button type="button" class="btn btn-primary btn-sm" data-go-week="' + next + '">See ' + esc(weekRange(WEEKS[next])) + ' <span class="arr">→</span></button>'
+          : 'Check back soon, or call Mend at (720) 772-6780.') + '</div>';
+    }
+
+    function neighborWeek(dir) {
+      for (var i = state.week + dir; i >= 0 && i < WEEKS.length; i += dir) if (weekShown(i)) return i;
+      return -1;
+    }
+
+    function syncSlots() {
+      daysEl.querySelectorAll('.slot').forEach(function(el) {
+        var on = el.getAttribute('data-id') === state.pick;
+        el.querySelector('input').checked = on;
+        el.classList.toggle('on', on);
+      });
+    }
+
+    // ── "Your class" box + sticky bar ──
+    function renderChosen() {
+      var c = CLASSES[state.pick];
+      chosenEl.classList.toggle('set', !!c);
+      if (!c) {
+        chosenEl.innerHTML = '<span class="cal-empty" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg></span>' +
+          '<div class="chosen-main"><strong>No class picked yet</strong><span>Choose a time in step 1.</span></div>';
+      } else {
+        var d = new Date(c.day.ms);
+        chosenEl.innerHTML = '<span class="cal-badge" aria-hidden="true"><span class="m">' + MONTHS[d.getUTCMonth()] + '</span><span class="d">' + d.getUTCDate() + '</span></span>' +
+          '<div class="chosen-main"><strong>' + longDate(c.day.ms) + '</strong><span>' + c.time + ' – ' + endTime(c) + " · Women's Strength</span></div>" +
+          '<a href="#schedule">Change</a>';
+      }
+      $('pbText').textContent = c ? classLabel(c) : '';
+      updateBar();
+    }
+
+    var detailsInView = false;
+    function updateBar() {
+      var show = !done && !!CLASSES[state.pick] && !detailsInView;
+      pickbar.classList.toggle('show', show);
+      document.body.classList.toggle('has-bar', show);
+    }
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function(entries) {
+        detailsInView = entries[0].isIntersecting;
+        updateBar();
+      }, { threshold: 0.25 }).observe($('details'));
+    }
+
+    // ── Week switching + picking ──
+    function setWeek(i, scroll) {
+      if (i < 0 || i >= WEEKS.length) return;
+      state.week = i;
+      renderWeeks();
+      renderDays();
+      if (scroll) {
+        var top = $('schedule').getBoundingClientRect().top;
+        if (top < 70 || top > window.innerHeight * 0.6) $('schedule').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    weeksEl.addEventListener('click', function(e) {
+      var b = e.target.closest('.wk');
+      if (b) setWeek(+b.getAttribute('data-i'), false);
+    });
+    daysEl.addEventListener('click', function(e) {
+      var b = e.target.closest('[data-go-week]');
+      if (b) setWeek(+b.getAttribute('data-go-week'), true);
+    });
+    prevBtn.addEventListener('click', function() { setWeek(neighborWeek(-1), true); });
+    nextBtn.addEventListener('click', function() { setWeek(neighborWeek(1), true); });
+    daysEl.addEventListener('change', function(e) {
+      if (!e.target || e.target.name !== 'cls') return;
+      state.pick = e.target.value;
+      syncSlots();
+      renderWeeks();
+      renderChosen();
+      clearError();
+      saveDraft();
+    });
+
+    // ── Goals ──
+    $('goals').innerHTML = GOALS.map(function(g, i) {
+      return '<label class="chip"><input type="checkbox" value="' + esc(g) + '" id="goal' + i + '">' + esc(g) + '</label>';
+    }).join('');
+    function syncGoals() {
+      $('goals').querySelectorAll('.chip').forEach(function(el) {
+        var input = el.querySelector('input');
+        input.checked = state.goals.indexOf(input.value) !== -1;
+        el.classList.toggle('on', input.checked);
+      });
+    }
+    $('goals').addEventListener('change', function(e) {
+      var v = e.target.value, at = state.goals.indexOf(v);
+      if (e.target.checked && at === -1) state.goals.push(v);
+      if (!e.target.checked && at !== -1) state.goals.splice(at, 1);
+      syncGoals();
+      saveDraft();
+    });
+
+    // ── Draft (survives a reload or the phone dropping the tab) ──
+    var DRAFT_KEY = 'koda-womens-free-class';
+    function saveDraft() {
+      try {
+        var d = { pick: state.pick, goals: state.goals };
+        for (var k in fields) d[k] = fields[k].value;
+        sessionStorage.setItem(DRAFT_KEY, JSON.stringify(d));
+      } catch (e) { /* private mode — fine */ }
+    }
+    function loadDraft() {
+      try {
+        var d = JSON.parse(sessionStorage.getItem(DRAFT_KEY) || 'null');
+        if (!d) return;
+        for (var k in fields) if (typeof d[k] === 'string') fields[k].value = d[k];
+        state.goals = (d.goals || []).filter(function(g) { return GOALS.indexOf(g) !== -1; });
+        if (CLASSES[d.pick] && bookable(CLASSES[d.pick])) state.pick = d.pick;
+      } catch (e) { /* ignore a bad draft */ }
+    }
+    Object.keys(fields).forEach(function(k) {
+      fields[k].addEventListener('input', function() {
+        var f = fields[k].closest('.field');
+        if (f) f.classList.remove('bad');
+        saveDraft();
+      });
+    });
+
+    // ── Submit ──
+    function showError(msg) {
+      formError.textContent = msg;
+      formError.classList.add('show');
+    }
+    function clearError() { formError.classList.remove('show'); formError.textContent = ''; }
+    function setBusy(on) {
+      submitBtn.disabled = on;
+      loadingOverlay.classList.toggle('active', on);
+    }
+    function phoneDigits(s) { return String(s).replace(/\D/g, ''); }
+    function phoneOk(s) {
+      var d = phoneDigits(s);
+      return /^\+/.test(s.trim()) ? d.length >= 8 && d.length <= 15 : d.length === 10 || (d.length === 11 && d[0] === '1');
+    }
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      clearError();
+      var v = {
+        firstName: fields.firstName.value.trim().replace(/\s+/g, ' '),
+        lastName: fields.lastName.value.trim().replace(/\s+/g, ' '),
+        email: fields.email.value.trim(),
+        phone: fields.phone.value.trim(),
+        notes: fields.notes.value.trim()
+      };
+      // A class can start while the page sits open — drop it before sending.
+      if (state.pick && !(CLASSES[state.pick] && bookable(CLASSES[state.pick]))) {
+        state.pick = '';
+        renderWeeks(); renderDays(); renderChosen();
+        showError('That class starts too soon to book online — please pick another time.');
+        return $('schedule').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      if (!state.pick) {
+        showError('Please pick a class time in step 1.');
+        return $('schedule').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      var bad = [];
+      if (!v.firstName) bad.push('fFirst');
+      if (!v.lastName) bad.push('fLast');
+      if (!EMAIL_RE.test(v.email)) bad.push('fEmail');
+      if (!phoneOk(v.phone)) bad.push('fPhone');
+      bad.forEach(function(id) { $(id).classList.add('bad'); });
+      if (bad.length) {
+        showError(bad.length === 1 ? 'Please fix the highlighted field.' : 'Please fix the highlighted fields.');
+        $(bad[0]).querySelector('input').focus();
+        return;
+      }
+
+      var data = {
+        type: 'mendws', firstName: v.firstName, lastName: v.lastName, email: v.email, phone: v.phone,
+        classId: state.pick, goals: state.goals.slice(), notes: v.notes, source: SOURCE, website: $('website').value
+      };
+      setBusy(true);
+
+      if (PREVIEW) {
+        console.log('Form data (preview mode):', data);
+        setTimeout(function() {
+          setBusy(false);
+          showSuccess({ cls: { id: state.pick }, intakeUrl: '' }, data);
+        }, 500);
+        return;
+      }
+
+      fetch(SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(data)
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(resp) {
+        setBusy(false);
+        // Only a confirmed write counts (saved:true).
+        if (resp && resp.status === 'ok' && resp.saved === true) return showSuccess(resp, data);
+        if (resp && resp.code === 'class_past') {
+          state.pick = '';
+          renderWeeks(); renderDays(); renderChosen();
+        }
+        showError((resp && resp.error) || 'Something went wrong — please try again.');
+      })
+      .catch(function() {
+        setBusy(false);
+        showError("We couldn't reach the reservation system. Check your connection and try again — or call Mend at (720) 772-6780.");
+      });
+    });
+
+    // ── Success ──
+    function stamp(ms) { return new Date(ms).toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''); }
+    function gcalUrl(c) {
+      var start = wallToUtc(c.wall);
+      return 'https://calendar.google.com/calendar/render?action=TEMPLATE' +
+        '&text=' + encodeURIComponent(EVENT_TITLE) +
+        '&dates=' + stamp(start) + '/' + stamp(start + CLASS_MINUTES * 6e4) +
+        '&location=' + encodeURIComponent(GYM_NAME + ', ' + GYM_ADDRESS) +
+        '&details=' + encodeURIComponent(EVENT_DETAILS);
+    }
+    function icsFile(c, email) {
+      var text = function(s) { return String(s).replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\n/g, '\\n'); };
+      var fold = function(line) {   // RFC 5545: lines over 75 octets continue with a leading space
+        var out = '';
+        while (line.length > 73) { out += line.slice(0, 73) + '\r\n '; line = line.slice(73); }
+        return out + line;
+      };
+      var start = wallToUtc(c.wall), who = String(email || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      return ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Koda CrossFit Iron View//Womens Strength//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+        'BEGIN:VEVENT',
+        'UID:' + c.id.replace(/[^0-9A-Za-z]/g, '') + '-' + who + '@koda-crossfit.github.io',
+        'DTSTAMP:' + stamp(Date.now()),
+        'DTSTART:' + stamp(start),
+        'DTEND:' + stamp(start + CLASS_MINUTES * 6e4),
+        fold('SUMMARY:' + text(EVENT_TITLE)),
+        fold('LOCATION:' + text(GYM_NAME + ', ' + GYM_ADDRESS)),
+        fold('DESCRIPTION:' + text(EVENT_DETAILS)),
+        'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
+    }
+
+    function showSuccess(resp, data) {
+      done = true;
+      updateBar();
+      var c = CLASSES[resp.cls && resp.cls.id] || CLASSES[data.classId];
+      $('successTitle').textContent = resp.duplicate ? "You're already booked, " + data.firstName + '!'
+        : resp.updated ? 'Your class is moved, ' + data.firstName + '!'
+        : "You're booked, " + data.firstName + '!';
+      $('successLead').textContent = PREVIEW ? 'Preview only — nothing was saved and no email was sent.'
+        : resp.duplicate ? 'You already have this class — nothing changed. Your confirmation email has the details.'
+        : 'A confirmation is on its way to ' + data.email + '.';
+
+      if (c) {
+        var d = new Date(c.day.ms);
+        $('booked').innerHTML = '<span class="cal-badge" aria-hidden="true"><span class="m">' + MONTHS[d.getUTCMonth()] + '</span><span class="d">' + d.getUTCDate() + '</span></span>' +
+          '<div class="booked-main"><strong>' + longDate(c.day.ms) + ' · ' + c.time + '</strong>' +
+          "<span>Women's Strength · 60 minutes</span><span>" + esc(GYM_NAME) + ', 740 S Pierce Ave #5, Louisville</span></div>';
+        $('gcalBtn').href = gcalUrl(c);
+        $('icsBtn').href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(icsFile(c, data.email));
+      } else {
+        $('booked').innerHTML = '<div class="booked-main"><strong>' + esc((resp.cls && resp.cls.label) || 'Your class') + '</strong></div>';
+      }
+      $('gcalBtn').hidden = $('icsBtn').hidden = !c;
+
+      var url = /^https:\/\//.test(resp.intakeUrl || '') ? resp.intakeUrl : '';
+      $('intake').innerHTML = '<span class="k">Next step · required</span>' +
+        (url ? '<h4>Fill out your intake form</h4><p>Your coaches review it before your first class — it only takes a few minutes. The link is in your confirmation email too.</p>' +
+               '<a class="btn btn-primary btn-md" href="' + esc(url) + '" target="_blank" rel="noopener">Open the intake form <span class="arr" aria-hidden="true">→</span></a>'
+             : '<h4>Watch for your intake form</h4><p>Your coaches will send you a short intake form before class — please fill it out before you come in so they know your history and goals.</p>');
+
+      form.style.display = 'none';
+      $('success').classList.add('show');
+      $('reserveHead').style.display = 'none';
+      $('reserve').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(function() { $('successTitle').focus({ preventScroll: true }); }, 400);
+    }
+
+    $('changeBtn').addEventListener('click', function() {
+      done = false;
+      $('success').classList.remove('show');
+      $('reserveHead').style.display = '';
+      $('reserveTitle').textContent = 'Change your class';
+      $('reserveSub').textContent = 'Pick a new time and reserve again with the same email — it replaces your current class.';
+      form.style.display = '';
+      if (CLASSES[state.pick] && !bookable(CLASSES[state.pick])) state.pick = '';
+      renderWeeks(); renderDays(); renderChosen();
+      $('schedule').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // ── Start ──
+    $('year').textContent = new Date().getFullYear();
+    loadDraft();
+    (function start() {
+      var picked = CLASSES[state.pick], wk = picked ? weekOf(picked) : -1;
+      if (wk < 0) for (var i = 0; i < WEEKS.length; i++) if (weekShown(i) && weekHasClasses(WEEKS[i])) { wk = i; break; }
+      state.week = wk < 0 ? 0 : wk;
+      syncGoals();
+      renderWeeks();
+      renderDays();
+      renderChosen();
+    })();
+  </script>
+</body>
+</html>
