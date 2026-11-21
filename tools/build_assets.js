@@ -34,7 +34,7 @@ const og = `<!doctype html><html><head><meta charset="utf-8">
   <div class="wrap">
     <div class="top"><svg viewBox="0 0 1961 1078"><path fill="#fff" d="${KX}"/></svg>Koda CrossFit Iron View × Mend Physical Therapy</div>
     <h1>Your first class<br>is on us.</h1>
-    <div class="sub">PT-led Women's Strength · Louisville, CO</div>
+    <div class="sub">Women's Strength classes · Louisville, CO</div>
     <div class="pill">Reserve your free class →</div>
   </div>
 </body></html>`;

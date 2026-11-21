@@ -2,7 +2,7 @@
 
 **Live at https://koda-crossfit.github.io/womens/** (repo Koda-CrossFit/womens, GitHub Pages from `main`; a push deploys in about a minute).
 
-A one-page site where a new client reserves **one free Women's Strength class** at Koda CrossFit Iron View. The class is PT-led with Mend Physical Therapy, and the page uses Mend's look (teal `#117F97`, navy `#122857`, light blue `#E6F7FE`, Inter). The Mend logo and the class/coach photos load straight from mendcolorado.com.
+A one-page site where a new client reserves **one free Women's Strength class** at Koda CrossFit Iron View. The class is run in partnership with Mend Physical Therapy (most classes have two coaches, usually including a Mend physical therapist — never promise a PT at every class), and the page uses Mend's look (teal `#117F97`, navy `#122857`, light blue `#E6F7FE`, Inter). The Mend logo and the class/coach photos load straight from mendcolorado.com.
 
 ## How it works
 
