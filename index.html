@@ -206,7 +206,8 @@
     .day-h .dn { display: block; font-weight: 800; color: var(--ink); font-size: 1.02rem; line-height: 1.25; }
     .day-h .dd { display: block; color: var(--muted); font-size: 0.9rem; }
     .day-h .tag { display: inline-block; margin-top: 6px; background: var(--teal-50); color: var(--teal-700); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
-    .slots { display: grid; grid-template-columns: repeat(auto-fill, minmax(82px, 1fr)); gap: 8px; }
+    /* Tue/Thu have six times: one row of six on wide screens, two rows of three below that */
+    .slots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
     .slot {
       position: relative; display: flex; align-items: baseline; justify-content: center; gap: 4px;
       padding: 13px 6px 12px; background: #fff; border: 1.5px solid var(--edge); border-radius: 8px;
@@ -233,9 +234,14 @@
       .day { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 16px 0; }
       .day-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding-top: 0; }
       .day-h .tag { margin-top: 0; }
-      .slots { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
     @media (max-width: 340px) { .slots { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (min-width: 1200px) {
+      .slots { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 7px; }
+      .slot { padding: 12px 3px 11px; gap: 3px; }
+      .slot .t { font-size: 1rem; }
+      .slot .ap { font-size: 0.7rem; }
+    }
 
     /* details form */
     .chosen { display: flex; align-items: center; gap: 14px; padding: 14px 16px; margin-bottom: 20px; border-radius: var(--r); background: var(--soft); border: 1.5px dashed var(--edge); }
@@ -766,9 +772,10 @@
     var WEEKS_AHEAD = 3;     // weeks shown after the current one
 
     // Women's Strength at Koda, from kodacrossfitironview.com/Schedule on
-    // 10/30/2026. Change times here and push — the backend accepts any time
-    // on any day (it only checks the pick is real, upcoming and not too far out).
-    var WS_TUE_THU = ['7:30 AM', '8:45 AM', '9:45 AM', '4:00 PM', '5:00 PM'];
+    // 10/30/2026, plus Tue/Thu 6:30 AM (Kevin, 11/25). Change times here and
+    // push — the backend accepts any time on any day (it only checks the pick
+    // is real, upcoming and not too far out).
+    var WS_TUE_THU = ['6:30 AM', '7:30 AM', '8:45 AM', '9:45 AM', '4:00 PM', '5:00 PM'];
     var LINEUP = { Tue: WS_TUE_THU, Thu: WS_TUE_THU, Fri: ['7:30 AM', '8:45 AM'] };
     var CLOSED_DAYS = {
       '2026-11-26': 'Thanksgiving',

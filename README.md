@@ -6,7 +6,7 @@ A one-page site where a new client reserves **one free Women's Strength class** 
 
 ## How it works
 
-- **Class times live in the page** (`LINEUP` in `index.html`), copied from kodacrossfitironview.com/Schedule on 10/30/2026. Tue/Thu: 7:30, 8:45, 9:45 AM, 4:00, 5:00 PM. Fri: 7:30, 8:45 AM. Change them there and push. The backend only checks that a pick is a real Mountain-time class, still upcoming and no more than 45 days out, so a time change needs no redeploy.
+- **Class times live in the page** (`LINEUP` in `index.html`), copied from kodacrossfitironview.com/Schedule on 10/30/2026, plus Tue/Thu 6:30 AM (Kevin, 11/25). Tue/Thu: 6:30, 7:30, 8:45, 9:45 AM, 4:00, 5:00 PM. Fri: 7:30, 8:45 AM. Days with six times show one row of six on wide screens and two rows of three below 1200px. Change them there and push. The backend only checks that a pick is a real Mountain-time class, still upcoming and no more than 45 days out, so a time change needs no redeploy.
 - The picker shows the current week plus the next 3 weeks (`WEEKS_AHEAD`). Classes starting within 60 minutes drop off (`LEAD_MINUTES`). Holidays in `CLOSED_DAYS` show as "no classes".
 - **One free class per email.** Reserving again with the same email moves an upcoming class. Once the class has started it counts as used, and the page tells them so.
 - Posts `type: "mendws"` to the Koda Apps Script web app, the same `/exec` URL as the Hyrox pages. The backend is `apps-script/MendWomens.js` in `Desktop\Claude\hyrox-simulation-signup` (repo Koda-CrossFit/hyrox), routed from `Code.js`. Deployed as web-app version @60 on 10/30/2026.
